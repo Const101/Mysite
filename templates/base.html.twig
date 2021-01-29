@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>{% block title %}Welcome!{% endblock %}</title>
+        {% block stylesheets %}{% endblock %}
+    </head>
+    <body>
+        {% block body %}{% endblock %}
+        {% block javascripts %}{% endblock %}
+        <main>
+    <h1>Главная часть сайта</h1>
+    <p>Текст главной части сайта</p>
+</main>
+<aside>
+    <h3>Об авторе</h3>
+    <p>Текст об авторе</p>
+</aside>
+
+    </body>
+</html>
